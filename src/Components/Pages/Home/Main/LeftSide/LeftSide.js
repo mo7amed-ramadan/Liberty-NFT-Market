@@ -4,8 +4,10 @@ import MainContent from "./MainContent";
 function LeftSide() {
   return (
     <>
-      <MainContent />
-      <LeftBtn />
+      <div className="flex flex-col items-start w-1/2 m-sm:w-full">
+        <MainContent />
+        <LeftBtn />
+      </div>
     </>
   );
 }

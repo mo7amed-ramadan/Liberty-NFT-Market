@@ -1,4 +1,4 @@
-import logo from "../../../Images/logo.png";
+import logo from "../../../../Images/logo.png";
 import NavLinks from "./NavLinks";
 import "./Navbar.css";
 import { useEffect } from "react";

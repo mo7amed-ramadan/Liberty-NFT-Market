@@ -1,11 +1,11 @@
 import LeftSide from "./LeftSide/LeftSide";
-import RightSide from "./RightSide";
+import RightSide from "./RightSide/RightSide";
 import "./Main.css";
 function Main() {
   return (
     <>
       <div className="container">
-        <div className="main w-1/2 mx-auto">
+        <div className="main w-full ps-28 pt-36 flex flex-row flex-wrap justify-between items-center">
           <LeftSide />
           <RightSide />
         </div>

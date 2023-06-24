@@ -1,0 +1,32 @@
+.swiper {
+  height: 100%;
+}
+.swiper-pagination {
+  display: none;
+}
+.swiper-scrollbar {
+  display: none;
+}
+.swiper-button-next {
+  display: block;
+  position: absolute;
+  top: 90%;
+  right: 56%;
+}
+.swiper-button-prev {
+  display: block;
+  position: absolute;
+  top: 90%;
+  left: 28%;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 15px !important;
+  font-weight: bold;
+  background: #fff;
+  width: fit-content;
+  height: fit-content;
+  padding: 15px 20px;
+  border-radius: 1068px;
+  color: #7453fc !important;
+}

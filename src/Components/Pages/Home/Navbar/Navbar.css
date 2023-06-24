@@ -2,7 +2,8 @@
   background-color: #7453fc;
   color: white;
 }
-nav {
+#navbar {
   position: sticky;
   top: 0;
+  z-index: 15;
 }
