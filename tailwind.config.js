@@ -13,13 +13,13 @@ module.exports = {
     screens: {
       "m-2xl": { max: "1535px" },
       // => @media (max-width: 1535px) { ... }
-      "m-xl": { max: "1279px" },
+      "m-xl": { max: "1280px" },
       // => @media (max-width: 1279px) { ... }
-      "m-lg": { max: "1023px" },
+      "m-lg": { max: "1024px" },
       // => @media (max-width: 1023px) { ... }
-      "m-md": { max: "767px" },
+      "m-md": { max: "768px" },
       // => @media (max-width: 767px) { ... }
-      "m-sm": { max: "639px" },
+      "m-sm": { max: "400px" },
       // => @media (max-width: 639px) { ... }
     },
   },

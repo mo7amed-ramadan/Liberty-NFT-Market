@@ -1,7 +1,6 @@
 // Import Swiper React components
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { useSwiper } from "swiper/react";
 // Import Swiper Styles
 import "swiper/swiper-bundle.min.css";
 import "./Slider.css";
@@ -9,10 +8,7 @@ import "./Slider.css";
 import RightImg from "../../../../../Images/banner-02.png";
 import LeftImg from "../../../../../Images/banner-01.png";
 import SlideContent from "./SlideContent";
-import { useState } from "react";
 function Slider() {
-  const swiper = useSwiper();
-  const [clicking, setClicking] = useState(false);
   return (
     <>
       <Swiper

@@ -1,10 +1,9 @@
 import Navbar from "./Navbar/Navbar";
-import "./Home.css";
 import Main from "./Main/Main";
 function Home() {
   return (
     <div
-      className="home bg-homeBg bg-cover bg-center bg-no-repeat h-full pb-60"
+      className="home bg-homeBg bg-no-repeat bg-cover h-full pb-60 pt-5 m-md:pt-0 m-sm:pb-20"
       id="home"
     >
       <Navbar />

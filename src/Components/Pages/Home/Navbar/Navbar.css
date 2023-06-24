@@ -3,7 +3,19 @@
   color: white;
 }
 #navbar {
-  position: sticky;
   top: 0;
+  left: 8%;
   z-index: 15;
+}
+.show {
+  display: block;
+}
+#navLinksHolder.hidden {
+  height: 0;
+}
+#navLinksHolder.show {
+  height: 100%;
+}
+#navLinksHolder {
+  transition: height 1s ease-in-out;
 }

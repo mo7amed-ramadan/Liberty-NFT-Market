@@ -30,3 +30,14 @@
   border-radius: 1068px;
   color: #7453fc !important;
 }
+@media screen and (max-width: 768px) {
+  .swiper-button-next {
+    right: 36%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none;
+  }
+}
