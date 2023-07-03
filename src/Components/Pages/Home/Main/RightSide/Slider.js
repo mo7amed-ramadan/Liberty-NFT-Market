@@ -1,5 +1,5 @@
 // Import Swiper React components
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper Styles
 import "swiper/swiper-bundle.min.css";
@@ -12,19 +12,15 @@ function Slider() {
   return (
     <>
       <Swiper
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
+        modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
         spaceBetween={50}
         slidesPerView={1}
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
+        loop={true}
       >
-        <SwiperSlide>
-          <SlideContent img={RightImg} title="right image VR" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SlideContent img={LeftImg} title="left image VR" />
-        </SwiperSlide>
         <SwiperSlide>
           <SlideContent img={RightImg} title="right image VR" />
         </SwiperSlide>

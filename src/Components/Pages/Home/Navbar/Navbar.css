@@ -2,10 +2,18 @@
   background-color: #7453fc;
   color: white;
 }
-#navbar {
+.navbar {
   top: 0;
-  left: 8%;
+  margin-left: 6%;
   z-index: 15;
+}
+.stickynav {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  margin: 0 !important;
+  margin-left: 0 !important;
+  transition: margin-top ease-in 0.5s;
 }
 .show {
   display: block;
@@ -18,4 +26,42 @@
 }
 #navLinksHolder {
   transition: height 1s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    margin-left: 0 !important;
+  }
+}
+.bar {
+  transition: all ease 0.3s;
+}
+.bar .small {
+  width: 20px !important;
+  height: 2px !important;
+  background: #7453fc !important;
+  border-radius: 9999px !important;
+  margin-bottom: 0.25rem !important;
+}
+.bar .long {
+  width: 24px !important;
+  height: 2px !important;
+  background: #7453fc !important;
+  border-radius: 9999px !important;
+  margin-bottom: 0.25rem !important;
+}
+.bar-closed .long {
+  display: none;
+}
+.bar-closed .small {
+  width: 24px !important;
+  height: 3px !important;
+  background: #7453fc !important;
+  border-radius: 9999px !important;
+  transition: all ease 0.3s;
+}
+.bar-closed .small:first-child {
+  transform: rotate(45deg) translate3d(3px, 0px, 10px);
+}
+.bar-closed .small:last-child {
+  transform: rotate(-45deg) translate(5px, -1px);
 }

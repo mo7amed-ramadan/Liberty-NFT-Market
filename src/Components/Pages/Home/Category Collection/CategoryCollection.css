@@ -1,0 +1,61 @@
+.items:hover .arrow {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.explore-btn {
+  position: absolute !important;
+  margin-top: 78% !important;
+  width: 200px !important;
+  margin-left: 14% !important;
+  margin-right: auto !important;
+}
+
+.collection .swiper-button-next {
+  top: 55%;
+  right: 21px;
+}
+.collection .swiper-button-prev {
+  top: 55%;
+  left: 0px;
+}
+.collection-items {
+  height: 500px !important;
+}
+/*
+.collection .swiper-slide {
+  margin-right: 28px;
+  width: 360px !important;
+}
+.collection .swiper-slide-active {
+  margin-left: 23px;
+} */
+/* For mac & pc monitors */
+@media (min-width: 1080px) {
+  .collection .swiper-slide-active {
+    margin-left: 28px;
+  }
+}
+/* For tablets */
+@media (max-width: 768px) {
+  .collection .swiper-slide-active {
+    margin-left: 24px;
+  }
+  .collection .swiper-button-prev {
+    top: 46%;
+  }
+  .collection .swiper-button-next {
+    top: 46%;
+  }
+  .collection .explore-btn {
+    margin-left: 10% !important;
+  }
+}
+/* For phones */
+/* @media (max-width: 400px) {
+  .heading-title {
+    margin-bottom: 25px;
+  }
+  .angle {
+    right: 43%;
+  }
+}  */
