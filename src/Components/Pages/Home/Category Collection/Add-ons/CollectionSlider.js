@@ -16,7 +16,7 @@ function CollectionSlider() {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        // autoplay={{ delay: 5000, disableOnInteraction: false }}
+        autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}
         breakpoints={{
           1400: {

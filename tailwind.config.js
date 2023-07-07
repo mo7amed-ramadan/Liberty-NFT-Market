@@ -7,9 +7,12 @@ module.exports = {
       backgroundImage: {
         homeBg: "url('/src/Images/banner-bg.jpg')",
         categoryCollectionBg: "url('/src/Images/dark-bg.jpg')",
+        createNftBg: "url('/src/Images/main-bg.jpg')",
       },
       colors: {
         mainColor: "#7453fc",
+        cardColor: "#282b2f",
+        borderColor: "#404245",
       },
       fontFamily: {
         body: ["Roboto"],

@@ -1,0 +1,11 @@
+.create-nft .heading-title {
+  margin-bottom: 0 !important;
+  align-items: flex-start;
+}
+.create-nft .heading-line {
+  background: white !important;
+  margin-bottom: 20px;
+}
+.creation-details:last-child .creation-line {
+  display: none;
+}

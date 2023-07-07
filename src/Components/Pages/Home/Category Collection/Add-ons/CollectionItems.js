@@ -9,7 +9,7 @@ function CollectionItems(props) {
       <div className=" flex flex-col">
         <img src={props.Img} alt={props.title} className="rounded-t-3xl" />
         {/* Content */}
-        <div className="content bg-[#282b2f] border border-[#404245] p-[30px] rounded-b-3xl flex-1">
+        <div className="content bg-cardColor border border-borderColor p-[30px] rounded-b-3xl flex-1">
           {/* title */}
           <h4 className="text-white text-lg font-bold pb-5 mb-5 border-b border-[#fff3] m-md:text-base">
             {props.title}

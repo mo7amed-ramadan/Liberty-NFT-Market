@@ -1,12 +1,13 @@
 import Heading from "./Add-ons/Heading";
 import CategoryItems from "./Add-ons/CategoryItems";
+import TextHighlight from "../../../TextHighlight";
+// Import images
 import BlockChain from "../../../../Images/icon-01.png";
 import DigitalArt from "../../../../Images/icon-02.png";
 import MusicArt from "../../../../Images/icon-03.png";
 import VirtualWorld from "../../../../Images/icon-04.png";
 import Valuable from "../../../../Images/icon-05.png";
 import TripleNFT from "../../../../Images/icon-06.png";
-import TextHighlight from "../../../TextHighlight";
 function Category() {
   return (
     <div className="category flex flex-col items-center justify-center">
