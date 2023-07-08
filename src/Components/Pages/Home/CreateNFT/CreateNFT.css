@@ -9,3 +9,12 @@
 .creation-details:last-child .creation-line {
   display: none;
 }
+@media (max-width: 768px) {
+  .create-nft .heading-title {
+    margin-bottom: 20px !important;
+  }
+  .create-nft .heading-line {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

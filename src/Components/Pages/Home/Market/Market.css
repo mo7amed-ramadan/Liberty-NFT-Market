@@ -5,3 +5,9 @@
 .market .heading-line {
   margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+  .market .heading-line {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

@@ -1,10 +1,10 @@
 function MarketItem(props) {
   return (
-    <div className="card bg-cardColor border-borderColor border flex flex-row flex-nowrap items-start w-[45%] p-8 mt-20 rounded-[20px]">
+    <div className="card bg-cardColor border-borderColor border flex flex-row flex-nowrap items-start w-[45%] p-8 mt-20 rounded-[20px] m-md:w-full m-sm:flex-col">
       <img
         src={props.nftImg}
         alt="product"
-        className=" max-h-80 rounded-[20px] mr-8"
+        className=" max-h-80 rounded-[20px] mr-8 m-sm:w-full m-sm:mb-4 m-sm:mx-auto"
       />
       <div className="card-content w-full text-white">
         <h4 className="text-xl mb-5 font-bold">{props.title}</h4>

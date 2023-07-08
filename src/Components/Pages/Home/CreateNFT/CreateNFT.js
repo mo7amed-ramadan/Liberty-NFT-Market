@@ -7,12 +7,12 @@ import VirtualWorld from "../../../../Images/icon-04.png";
 import TripleNFT from "../../../../Images/icon-06.png";
 function CreateNFT() {
   return (
-    <div className="create-nft bg-createNftBg bg-cover bg-no-repeat bg-center container mx-auto px-16 py-32">
-      <header className="flex flex-row items-center justify-between w-full">
+    <div className="create-nft bg-createNftBg bg-cover bg-no-repeat bg-center container mx-auto px-16 m-md:px-10 py-32">
+      <header className="flex flex-row items-center justify-between w-full m-md:flex-col m-md:text-center">
         <Heading headingTitle="Create Your NFT & Put It On The Market." />
         <Buttons title="Create Your NFT Now" />
       </header>
-      <div className="flex flex-row mt-24">
+      <div className="flex flex-row m-md:flex-wrap m-md:items-center mt-24">
         {/* First */}
         <CreationDetails
           img={DigitalArt}

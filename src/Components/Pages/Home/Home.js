@@ -3,6 +3,7 @@ import Main from "./Main/Main";
 import CategoryCollection from "./Category Collection/CategoryCollection";
 import CreateNFT from "./CreateNFT/CreateNFT";
 import Market from "./Market/Market";
+import Footer from "../../Footer";
 function Home() {
   return (
     <div className="home h-full" id="home">
@@ -12,6 +13,7 @@ function Home() {
         <CategoryCollection />
         <CreateNFT />
         <Market />
+        <Footer />
       </div>
     </div>
   );

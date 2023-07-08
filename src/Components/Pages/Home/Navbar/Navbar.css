@@ -15,8 +15,8 @@
   margin-left: 0 !important;
   transition: margin-top ease-in 0.5s;
 }
-.show {
-  display: block;
+.show .nav-group {
+  left: 0 !important;
 }
 #navLinksHolder.hidden {
   height: 0;

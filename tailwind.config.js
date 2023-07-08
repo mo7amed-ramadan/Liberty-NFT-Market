@@ -8,6 +8,8 @@ module.exports = {
         homeBg: "url('/src/Images/banner-bg.jpg')",
         categoryCollectionBg: "url('/src/Images/dark-bg.jpg')",
         createNftBg: "url('/src/Images/main-bg.jpg')",
+        footerBg:
+          "linear-gradient(132deg, rgba(125,90,254,1) 25%, rgba(160,84,244,1) 100%)",
       },
       colors: {
         mainColor: "#7453fc",
