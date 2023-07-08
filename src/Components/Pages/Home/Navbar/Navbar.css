@@ -27,7 +27,7 @@
 #navLinksHolder {
   transition: height 1s ease-in-out;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .navbar {
     margin-left: 0 !important;
   }

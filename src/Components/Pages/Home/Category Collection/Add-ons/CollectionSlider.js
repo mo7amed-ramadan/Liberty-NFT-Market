@@ -24,15 +24,25 @@ function CollectionSlider() {
             slidesPerView: 3,
             width: 1200,
           },
+          1330: {
+            spaceBetween: 35,
+            slidesPerView: 3,
+            width: 1160,
+          },
           1080: {
             spaceBetween: 20,
             slidesPerView: 3,
             width: 1125,
           },
-          450: {
-            spaceBetween: 35,
+          800: {
+            spaceBetween: 40,
             slidesPerView: 2,
-            width: 630,
+            width: 700,
+          },
+          450: {
+            spaceBetween: 33,
+            slidesPerView: 2,
+            width: 635,
           },
           320: {
             spaceBetween: 35,

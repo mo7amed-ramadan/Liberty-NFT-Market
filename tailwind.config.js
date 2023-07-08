@@ -28,9 +28,9 @@ module.exports = {
       // => @media (max-width: 1280px) { ... }
       "m-lg": { max: "1024px" },
       // => @media (max-width: 1024px) { ... }
-      "m-md": { max: "768px" },
+      "m-md": { max: "850px" },
       // => @media (max-width: 768px) { ... }
-      "m-sm": { max: "400px" },
+      "m-sm": { max: "415px" },
       // => @media (max-width: 400px) { ... }
 
       // Min width

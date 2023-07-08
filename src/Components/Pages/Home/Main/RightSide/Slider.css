@@ -30,12 +30,12 @@
   border-radius: 1068px;
   color: #7453fc !important;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .swiper-button-next {
     right: 36%;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
   .swiper-button-next,
   .swiper-button-prev {
     display: none;

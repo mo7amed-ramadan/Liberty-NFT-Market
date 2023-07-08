@@ -7,7 +7,12 @@ function CollectionItems(props) {
       </div>
       {/* Item Holder */}
       <div className=" flex flex-col">
-        <img src={props.Img} alt={props.title} className="rounded-t-3xl" />
+        <img
+          src={props.Img}
+          alt={props.title}
+          className="rounded-t-3xl"
+          loading="lazy"
+        />
         {/* Content */}
         <div className="content bg-cardColor border border-borderColor p-[30px] rounded-b-3xl flex-1">
           {/* title */}
@@ -23,7 +28,7 @@ function CollectionItems(props) {
             </span>
             <span className="w-[50%] text-right text-white text-sm font-medium m-md:text-xs">
               Category:
-              <span className="block text-white font-bold text-xl m-md:text-lg">
+              <span className="block text-white font-bold text-xl m-md:text-lg m-sm:text-base">
                 {props.category}
               </span>
             </span>

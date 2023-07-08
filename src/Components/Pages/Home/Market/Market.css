@@ -5,9 +5,14 @@
 .market .heading-line {
   margin-bottom: 20px;
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .market .heading-line {
     margin-right: auto;
     margin-left: auto;
+  }
+}
+@media (max-width: 360px) {
+  .filters-btn {
+    width: 102%;
   }
 }

@@ -1,10 +1,11 @@
 function MarketItem(props) {
   return (
-    <div className="card bg-cardColor border-borderColor border flex flex-row flex-nowrap items-start w-[45%] p-8 mt-20 rounded-[20px] m-md:w-full m-sm:flex-col">
+    <div className="card bg-cardColor border-borderColor border flex flex-row flex-nowrap items-center w-[45%] p-8 mt-20 rounded-[20px] m-md:w-full m-sm:flex-col">
       <img
         src={props.nftImg}
         alt="product"
-        className=" max-h-80 rounded-[20px] mr-8 m-sm:w-full m-sm:mb-4 m-sm:mx-auto"
+        className=" max-h-80 max-w-[210px] rounded-[20px] mr-8 m-sm:w-full m-sm:mb-4 m-sm:mx-auto"
+        loading="lazy"
       />
       <div className="card-content w-full text-white">
         <h4 className="text-xl mb-5 font-bold">{props.title}</h4>
@@ -13,6 +14,7 @@ function MarketItem(props) {
             src={props.artistImg}
             alt="author"
             className="rounded-full max-w-[50%] mr-4"
+            loading="lazy"
           />
           <div className="flex flex-col">
             <span className="text-base">{props.name}</span>

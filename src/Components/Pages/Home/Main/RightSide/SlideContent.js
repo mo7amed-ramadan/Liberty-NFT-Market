@@ -2,7 +2,7 @@ function SlideContent(props) {
   return (
     <>
       <div className="background">
-        <img src={props.img} alt={props.title} />
+        <img src={props.img} alt={props.title} loading="lazy" />
       </div>
     </>
   );

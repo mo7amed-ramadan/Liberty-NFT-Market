@@ -28,7 +28,7 @@
   }
 }
 /* For tablets */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .collection .swiper-slide-active {
     margin-left: 24px;
   }

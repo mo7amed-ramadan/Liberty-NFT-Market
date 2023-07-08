@@ -1,5 +1,10 @@
 import artistsImg from "../../../../Images/author.jpg";
 import market01 from "../../../../Images/market-01.jpg";
+import market02 from "../../../../Images/discover-01.jpg";
+import market03 from "../../../../Images/discover-02.jpg";
+import market04 from "../../../../Images/discover-03.jpg";
+import market05 from "../../../../Images/discover-04.jpg";
+import market06 from "../../../../Images/featured-03.jpg";
 const ItemsDetails = [
   {
     id: 1,
@@ -18,7 +23,7 @@ const ItemsDetails = [
     title: "Blockchain Music Design",
     price: "$8,200.50",
     category: ["All", "Music Art", "Blockchain"],
-    img: market01,
+    img: market02,
     artistImg: artistsImg,
     artistName: "Liberty Artist",
     eth: "2.44 ETH",
@@ -30,7 +35,7 @@ const ItemsDetails = [
     title: "Digital Crypto Artwork",
     price: "$7,200.50",
     category: ["All", "Digital Art"],
-    img: market01,
+    img: market03,
     artistImg: artistsImg,
     artistName: "Liberty Artist",
     eth: "2.03 ETH",
@@ -42,7 +47,7 @@ const ItemsDetails = [
     title: "Digital Art Item",
     price: "$8,400.50",
     category: ["All", "Digital Art"],
-    img: market01,
+    img: market04,
     artistImg: artistsImg,
     artistName: "Liberty Artist",
     eth: "2.50 ETH",
@@ -54,7 +59,7 @@ const ItemsDetails = [
     title: "Blockchain Item One",
     price: "$6,600.00",
     category: ["All", "Blockchain"],
-    img: market01,
+    img: market05,
     artistImg: artistsImg,
     artistName: "Liberty Artist",
     eth: "3.64 ETH",
@@ -66,7 +71,7 @@ const ItemsDetails = [
     title: "Virtual Currency Art",
     price: "$8,800.50",
     category: ["All", "Virtual"],
-    img: market01,
+    img: market06,
     artistImg: artistsImg,
     artistName: "Liberty Artist",
     eth: "2.44 ETH",
