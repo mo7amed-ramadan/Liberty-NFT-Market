@@ -37,9 +37,36 @@ function NavHolder() {
           link="/explore"
           onClick={() => handleLinkClick("Explore")}
         />
-        <NavLinks name="Item Details" className={linkClass} />
-        <NavLinks name="Author" className={linkClass} />
-        <NavLinks name="Create Yours" className={linkClass} />
+        <NavLinks
+          name="Item Details"
+          className={`${linkClass} ${
+            location.pathname === "/itemdetails" && activeLink !== "Home"
+              ? "activated"
+              : ""
+          }`}
+          link="/itemdetails"
+          onClick={() => handleLinkClick("Item Details")}
+        />
+        <NavLinks
+          name="Author"
+          className={`${linkClass} ${
+            location.pathname === "/author" && activeLink !== "Home"
+              ? "activated"
+              : ""
+          }`}
+          link="/author"
+          onClick={() => handleLinkClick("Author")}
+        />
+        <NavLinks
+          name="Create Yours"
+          className={`${linkClass} ${
+            location.pathname === "/createyours" && activeLink !== "Home"
+              ? "activated"
+              : ""
+          }`}
+          link="/createyours"
+          onClick={() => handleLinkClick("Create Yours")}
+        />
       </ul>
     </div>
   );

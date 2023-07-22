@@ -8,12 +8,12 @@ function MarketItem(props) {
         loading="lazy"
       />
       <div className="card-content w-full text-white">
-        <h4 className="text-xl mb-5 font-bold">{props.title}</h4>
+        <h4 className="text-lg mb-5 font-bold">{props.title}</h4>
         <div className="artist flex flex-row items-center mb-6">
           <img
             src={props.artistImg}
             alt="author"
-            className="rounded-full max-w-[50%] mr-4"
+            className="rounded-full max-w-[50%] w-[20%] mr-4"
             loading="lazy"
           />
           <div className="flex flex-col">
@@ -36,7 +36,7 @@ function MarketItem(props) {
         <div className="expire mt-4">
           <span className="text-base">
             Ends In:
-            <strong className="text-xl ml-2">{props.time}</strong>
+            <strong className="text-lg ml-2">{props.time}</strong>
           </span>
           <span className="text-sm block text-mainColor text-right">
             {props.date}

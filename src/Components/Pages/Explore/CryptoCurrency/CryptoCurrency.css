@@ -1,0 +1,10 @@
+table th,
+tr {
+  border-bottom-width: 2px !important;
+}
+table tr:last-child {
+  border-bottom-width: 0 !important;
+}
+table thead th:last-child {
+  border-right: 0 !important;
+}

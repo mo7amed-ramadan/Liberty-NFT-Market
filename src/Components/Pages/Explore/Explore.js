@@ -1,9 +1,11 @@
-import Navbar from "../Home/Navbar/Navbar";
+import PageHeading from "./PageHeading/PageHeading";
+import CryptoCurrency from "./CryptoCurrency/CryptoCurrency";
 
 function Explore() {
   return (
     <>
-      <Navbar />
+      <PageHeading />
+      <CryptoCurrency />
     </>
   );
 }

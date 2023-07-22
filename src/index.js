@@ -5,6 +5,9 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Components/Pages/Home/Home";
 import Explore from "./Components/Pages/Explore/Explore";
+import ItemDetails from "./Components/Pages/ItemDetails/ItemDetails";
+import Author from "./Components/Pages/Author/Author";
+import CreateYours from "./Components/Pages/CreateYours/CreateYours";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -13,6 +16,18 @@ const router = createBrowserRouter([
   {
     path: "/explore",
     element: <Explore />,
+  },
+  {
+    path: "/itemdetails",
+    element: <ItemDetails />,
+  },
+  {
+    path: "/author",
+    element: <Author />,
+  },
+  {
+    path: "/createyours",
+    element: <CreateYours />,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById("root"));

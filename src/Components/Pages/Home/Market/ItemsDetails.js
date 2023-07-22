@@ -1,4 +1,6 @@
 import artistsImg from "../../../../Images/author.jpg";
+import artistsImg02 from "../../../../Images/author-02.jpg";
+import artistsImg03 from "../../../../Images/author-03.jpg";
 import market01 from "../../../../Images/market-01.jpg";
 import market02 from "../../../../Images/discover-01.jpg";
 import market03 from "../../../../Images/discover-02.jpg";
@@ -24,7 +26,7 @@ const ItemsDetails = [
     price: "$8,200.50",
     category: ["All", "Music Art", "Blockchain"],
     img: market02,
-    artistImg: artistsImg,
+    artistImg: artistsImg02,
     artistName: "Liberty Artist",
     eth: "2.44 ETH",
     expireTime: "5D 10H 22M 24S",
@@ -36,7 +38,7 @@ const ItemsDetails = [
     price: "$7,200.50",
     category: ["All", "Digital Art"],
     img: market03,
-    artistImg: artistsImg,
+    artistImg: artistsImg03,
     artistName: "Liberty Artist",
     eth: "2.03 ETH",
     expireTime: "2D 06H 30M 25S",
@@ -60,7 +62,7 @@ const ItemsDetails = [
     price: "$6,600.00",
     category: ["All", "Blockchain"],
     img: market05,
-    artistImg: artistsImg,
+    artistImg: artistsImg02,
     artistName: "Liberty Artist",
     eth: "3.64 ETH",
     expireTime: "6D 05H 40M 50S",
@@ -72,7 +74,7 @@ const ItemsDetails = [
     price: "$8,800.50",
     category: ["All", "Virtual"],
     img: market06,
-    artistImg: artistsImg,
+    artistImg: artistsImg03,
     artistName: "Liberty Artist",
     eth: "2.44 ETH",
     expireTime: "3D 05H 20M 58S",

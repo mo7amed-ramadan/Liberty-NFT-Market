@@ -10,6 +10,7 @@ module.exports = {
         createNftBg: "url('/src/Images/main-bg.jpg')",
         footerBg:
           "linear-gradient(132deg, rgba(125,90,254,1) 25%, rgba(160,84,244,1) 100%)",
+        exploreBg: "url('/src/Images/heading-bg.jpg')",
       },
       colors: {
         mainColor: "#7453fc",
