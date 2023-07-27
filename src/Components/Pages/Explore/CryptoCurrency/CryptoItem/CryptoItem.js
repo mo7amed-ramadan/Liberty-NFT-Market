@@ -4,7 +4,7 @@ function CryptoItem(props) {
       <tr className="crypto-item w-[90%] mx-auto">
         <td className="border-r-2 border-white">{props.num}</td>
         <td className="coin-thumb pl-2 py-3 border-r-2 border-white">
-          <img src={props.img} alt="bitcoin" />
+          <img src={props.img} alt="bitcoin" loading="lazy" />
         </td>
         <td className="pl-2 border-r-2 border-white">{props.name}</td>
         <td className="pl-2 border-r-2 border-white">{props.priceUSD}</td>

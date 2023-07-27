@@ -5,9 +5,9 @@ import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Components/Pages/Home/Home";
 import Explore from "./Components/Pages/Explore/Explore";
-import ItemDetails from "./Components/Pages/ItemDetails/ItemDetails";
 import Author from "./Components/Pages/Author/Author";
 import CreateYours from "./Components/Pages/CreateYours/CreateYours";
+import ItemDetailsPage from "./Components/Pages/ItemDetails/ItemDetailsPage";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/itemdetails",
-    element: <ItemDetails />,
+    element: <ItemDetailsPage />,
   },
   {
     path: "/author",

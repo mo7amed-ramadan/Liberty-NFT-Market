@@ -5,7 +5,6 @@ import Heading from "../../Home/Category Collection/Add-ons/Heading";
 import TextHighlight from "../../../TextHighlight";
 import TableHeader from "./TableHeader";
 import Buttons from "../../../Buttons";
-import Footer from "../../../Footer";
 import "./CryptoCurrency.css";
 function CryptoCurrency() {
   const [crypto, setCrypto] = useState([]);
@@ -95,7 +94,6 @@ function CryptoCurrency() {
             />
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );
