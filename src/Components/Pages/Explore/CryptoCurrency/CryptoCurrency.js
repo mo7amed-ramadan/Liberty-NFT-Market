@@ -23,16 +23,16 @@ function CryptoCurrency() {
   }, []);
   return (
     <>
-      <div className="container">
-        <div className="crypto-market bg-categoryCollectionBg bg-cover bg-no-repeat bg-center py-28">
-          <Heading
-            headingTitle={
-              <>
-                Browse Our <TextHighlight highlight="Crypto" /> Market Here.
-              </>
-            }
-          />
-          <table className="text-white mx-auto w-5/6 text-left">
+      <div className="crypto-market bg-categoryCollectionBg bg-cover bg-no-repeat bg-center py-28">
+        <Heading
+          headingTitle={
+            <>
+              Browse Our <TextHighlight highlight="Crypto" /> Market Here.
+            </>
+          }
+        />
+        <div className="market-table m-sm:overflow-x-auto m-sm:mx-5">
+          <table className="text-white mx-auto w-5/6 text-left m-md:w-11/12 m-sm:w-[800px]">
             <thead>
               <TableHeader />
             </thead>
@@ -87,12 +87,12 @@ function CryptoCurrency() {
               })}
             </tbody>
           </table>
-          <div className="w-fit mx-auto" style={{ marginTop: "56px" }}>
-            <Buttons
-              title="Click Here To See Full Market"
-              link="https://www.coingecko.com/"
-            />
-          </div>
+        </div>
+        <div className="w-fit mx-auto" style={{ marginTop: "56px" }}>
+          <Buttons
+            title="Click Here To See Full Market"
+            link="https://www.coingecko.com/"
+          />
         </div>
       </div>
     </>

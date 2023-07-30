@@ -8,3 +8,15 @@ table tr:last-child {
 table thead th:last-child {
   border-right: 0 !important;
 }
+@media (max-width: 400px) {
+  table td {
+    width: 100px;
+  }
+  .coin-thumb,
+  .num,
+  .coin,
+  .num-header {
+    box-shadow: -2px 0px 0px 0px white inset;
+    border-right: none !important;
+  }
+}
