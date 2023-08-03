@@ -3,11 +3,7 @@ import Home from "./Components/Pages/Home/Home";
 import React from "react";
 
 function App() {
-  return (
-    <div className="App font-body">
-      <Home />
-    </div>
-  );
+  return <div className="App font-body"></div>;
 }
 
 export default App;

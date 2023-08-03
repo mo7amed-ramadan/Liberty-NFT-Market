@@ -13,7 +13,7 @@ function ItemDetailsPage() {
           <Navbar />
           <ItemPageHeader />
         </div>
-        <div className="item-cart bg-categoryCollectionBg w-full h-full bg-no-repeat py-40">
+        <div className="item-cart bg-categoryCollectionBg w-full h-full bg-no-repeat bg-cover py-40">
           <div className="mx-auto w-10/12">
             <Heading
               headingTitle={

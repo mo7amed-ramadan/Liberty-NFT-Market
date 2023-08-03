@@ -8,7 +8,7 @@ function CreationDetails(props) {
         <h4 className="text-white text-xl font-bold mt-7 mb-4">
           {props.title}
         </h4>
-        <p className="text-white text-sm leading-[30px] mr-8">
+        <p className="text-white text-sm leading-[30px] mr-8 m-sm:mr-0">
           {props.description}
         </p>
       </div>
