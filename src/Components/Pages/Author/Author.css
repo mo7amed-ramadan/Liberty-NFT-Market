@@ -1,0 +1,11 @@
+.author-btn .main-btn {
+  position: absolute !important;
+  left: 40px;
+  right: 40px;
+}
+.bid strong {
+  margin-left: 4px;
+}
+.end strong {
+  margin-left: 4px;
+}
