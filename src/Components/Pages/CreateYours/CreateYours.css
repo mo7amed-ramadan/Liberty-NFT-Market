@@ -1,0 +1,16 @@
+@media (min-width: 1024px) {
+  .input-holder fieldset input {
+    width: 355px !important;
+  }
+  .input-holder fieldset:nth-last-child(4) input {
+    width: 550px !important;
+  }
+  .input-holder fieldset:nth-last-child(3) input {
+    width: 550px !important;
+  }
+}
+@media (max-width: 850px) {
+  .input-holder fieldset input {
+    width: 100% !important;
+  }
+}

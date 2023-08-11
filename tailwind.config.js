@@ -16,6 +16,7 @@ module.exports = {
         mainColor: "#7453fc",
         cardColor: "#282b2f",
         borderColor: "#404245",
+        addItemColor: "#37393c",
       },
       fontFamily: {
         body: ["Roboto"],

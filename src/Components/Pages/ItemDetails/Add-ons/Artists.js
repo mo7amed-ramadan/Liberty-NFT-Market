@@ -9,7 +9,7 @@ function Artists(props) {
       />
       <div className="content text-white flex flex-col items-start mx-5 m-md:w-full">
         <div className="flex flex-col text-base m-sm:text-xs">
-          <span className="text-xl font-bold m-sm:text-sm">{props.name}</span>
+          <span className="text-lg font-bold m-sm:text-sm">{props.name}</span>
           <a href="/itemdetails" className="text-mainColor font-bold">
             @davidwalker
           </a>
